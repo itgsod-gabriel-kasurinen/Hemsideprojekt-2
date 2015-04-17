@@ -1,1 +1,24 @@
-.h1
+#logo {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+#menu {
+    float: left;
+    height: 2000px;
+    width: 10%;
+    background-color: red;
+}
+#where_you_are {
+    float: left;
+    height:100px;
+    width:90%;
+    background-color: #00e0e6;
+}
+#content_here {
+    float: left;
+    height:1800px;
+    width:90%;
+
+}

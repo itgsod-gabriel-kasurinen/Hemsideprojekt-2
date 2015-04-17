@@ -1,24 +1,34 @@
-#logo {
+#logga {
     float: left;
     height: 200px;
     width: 100%;
     background-color: black;
 }
-#menu {
+#meny {
     float: left;
     height: 2000px;
     width: 10%;
     background-color: red;
 }
-#where_you_are {
+#meny a {
+    color: white;
+    font-size: 30px;
+
+}
+#meny ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+#du_ar_har {
     float: left;
     height:100px;
     width:90%;
     background-color: #00e0e6;
 }
-#content_here {
+#innehall_har {
     float: left;
-    height:1800px;
+    height:1900px;
     width:90%;
+    background-color:green;
 
 }

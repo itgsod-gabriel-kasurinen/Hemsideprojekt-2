@@ -8,17 +8,23 @@
     float: left;
     height: 2000px;
     width: 10%;
-    background-color: red;
+
+    background-image: url("../img/alber-einstein.jpg");
 }
+
+#meny ul {
+     list-style-type: none;
+     padding-top: 10px;
+     padding-left: 10px;
+}
+
 #meny a {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 10px;
 
 }
-#meny ul {
-    list-style-type: none;
-    padding-top: 10px;
-}
+
 #du_ar_har {
     float: left;
     height:100px;

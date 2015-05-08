@@ -1,20 +1,26 @@
+#body {
+    width: 1265px;
+}
 #logga {
     float: left;
     height: 200px;
     width: 100%;
     background-image: url("../img/alber-einstein.png");
-    background-size: 100% 400px;
+
     background-repeat: repeat;
+    min-width: 500px;
 }
 #meny {
     float: left;
     height: 2000px;
-    width: 10%;
+    width: 12%;
+    min-width: 156px;
     background-color: red;
+
 
 }
 
-#meyn img {
+#meny img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -34,16 +40,124 @@
 
 }
 
+
+.button {
+    display: block;
+    height: 45%;
+    width: 100%;
+    float: left;
+    align-content: center;
+
+    background: #6f0008;
+    border: 2px solid rgba(134, 0, 8, 0.59);
+    /*Step 4: Fancy CSS3 Styles*/
+    background: -webkit-linear-gradient(top, #6f0008, #9a0000);
+    background: -moz-linear-gradient(top, #6f0008, #9a0000);
+    background: -o-linear-gradient(top, #6f0008, #9a0000);
+    background: -ms-linear-gradient(top, #6f0008, #9a0000);
+    background: linear-gradient(top, #6f0008, #9a0000);
+
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+    text-align: center;
+
+
+    /*Step 3: Text Styles*/
+    color: rgb(0, 0, 0);
+
+    font: bold 1.5em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+a.button2 {
+    text-decoration: none;
+}
+
+
+.buttonpressed{
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #024f00, #36c800);
+    background: -moz-linear-gradient(top, #024f00, #36c800);
+    background: -o-linear-gradient(top, #024f00, #36c800);
+    background: -ms-linear-gradient(top, #024f00, #36c800);
+    background: linear-gradient(top, #024f00, #36c800);
+
+    display: block;
+    height: 45%;
+    width: 100%;
+    float: left;
+    align-content: center;
+
+
+    border: 2px solid rgba(134, 0, 8, 0.59);
+    /*Step 4: Fancy CSS3 Styles*/
+
+
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+    text-align: center;
+
+
+    /*Step 3: Text Styles*/
+    color: rgb(0, 0, 0);
+
+    font: bold 1.5em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+
+
+}
+.button:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #024f00, #36c800);
+    background: -moz-linear-gradient(top, #024f00, #36c800);
+    background: -o-linear-gradient(top, #024f00, #36c800);
+    background: -ms-linear-gradient(top, #024f00, #36c800);
+    background: linear-gradient(top, #024f00, #36c800);
+}
+.button:active {
+    background: navy;
+}
+
+#innehall_har a {
+    text-decoration-color: red;
+}
+
 #du_ar_har {
     float: left;
     height:100px;
-    width:90%;
+    width:88%;
     background-color: #00e0e6;
+    min-width: 806px;
 }
 #innehall_har {
     float: left;
     height:1900px;
-    width:90%;
-    background-color:green;
+    width:88%;
+    min-width: 806px;
+    overflow-scrolling: true;
+}
 
+.innehall {
+    min-width: 233px;
+    float: left;
+    margin-top: 1%;
+    width: 20%;
+    margin-left: 2%;
+    
+    height: 7%;
+    background-color: #ff0400;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
 }

@@ -135,17 +135,23 @@ a.button2 {
 
 #du_ar_har {
     float: left;
-    height:100px;
+    height:200px;
     width:88%;
     background-color: #00e0e6;
     min-width: 806px;
+    text-align: center;
+}
+#du_ar_har h1{
+    font-family: cursive;
+    font-size: 70px;
 }
 #innehall_har {
     float: left;
     height:1900px;
     width:88%;
     min-width: 806px;
-    overflow-scrolling: true;
+    text-align: center;
+
 }
 
 .innehall {
@@ -154,10 +160,33 @@ a.button2 {
     margin-top: 1%;
     width: 20%;
     margin-left: 2%;
-    
     height: 7%;
     background-color: #ff0400;
     border-style: solid;
     border-width: thick;
     border-color: black;
+}
+.innehall h1 {
+  color: white;
+    font-size: 40px;
+}
+#googleMap {
+    float:left;
+    width: 1200px;
+    height: 900px;
+}
+#kontakt_innehall_har {
+    float:left;
+
+}
+#kontakt_innehall_har ul tr {
+    float:left;
+}
+#kontakt_innehall_har table, th, td {
+    border: 2px solid black;
+
+}
+#kontakt_innehall_har th, td {
+    padding: 15px;
+    font-size: 30px;
 }

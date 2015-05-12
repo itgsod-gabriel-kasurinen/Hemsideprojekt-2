@@ -12,7 +12,7 @@
 }
 #meny {
     float: left;
-    height: 1000px;
+    height: 1040px;
     width: 12%;
     min-width: 156px;
     background-color: red;
@@ -140,6 +140,7 @@ a.button2 {
     background-color: #00e0e6;
     min-width: 806px;
     text-align: center;
+    margin-top:40px;
 }
 #du_ar_har h1{
     font-family: cursive;
@@ -175,7 +176,7 @@ a.button2 {
     float:left;
 }
 #har_ar_vi h1 {
-   font-size 80px;
+   font-size: 80px;
 
 }
 #har_ar_vi input,img {

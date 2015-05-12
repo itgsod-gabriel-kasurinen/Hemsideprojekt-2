@@ -12,7 +12,7 @@
 }
 #meny {
     float: left;
-    height: 2000px;
+    height: 1000px;
     width: 12%;
     min-width: 156px;
     background-color: red;
@@ -147,10 +147,11 @@ a.button2 {
 }
 #innehall_har {
     float: left;
-    height:1900px;
+    height:800px;
     width:88%;
     min-width: 806px;
     text-align: center;
+    overflow: scroll;
 
 }
 
@@ -160,7 +161,7 @@ a.button2 {
     margin-top: 1%;
     width: 20%;
     margin-left: 2%;
-    height: 7%;
+    height: 11%;
     background-color: #ff0400;
     border-style: solid;
     border-width: thick;
@@ -170,10 +171,23 @@ a.button2 {
   color: white;
     font-size: 40px;
 }
-#googleMap {
+#har_ar_vi{
     float:left;
-    width: 1200px;
-    height: 900px;
+}
+#har_ar_vi h1 {
+   font-size 80px;
+
+}
+#har_ar_vi input,img {
+    float:left;
+}
+#mat_schema {
+    float:left;
+}
+#googleMap {
+  float:left;
+    width: 1000px;
+    height: 700px;
 }
 #kontakt_innehall_har {
     float:left;

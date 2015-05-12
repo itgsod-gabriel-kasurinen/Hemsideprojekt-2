@@ -1,6 +1,8 @@
 #body {
     width: 1265px;
+
 }
+
 #logga {
     float: left;
     height: 200px;
@@ -14,7 +16,6 @@
     float: left;
     height: 1040px;
     width: 12%;
-    min-width: 156px;
     background-color: red;
 
 
@@ -138,7 +139,7 @@ a.button2 {
     height:200px;
     width:88%;
     background-color: #00e0e6;
-    min-width: 806px;
+
     text-align: center;
     margin-top:40px;
 }
@@ -204,4 +205,13 @@ a.button2 {
 #kontakt_innehall_har th, td {
     padding: 15px;
     font-size: 30px;
+}
+@media screen and (max-width: 1200px) {
+#googleMap{
+    width: 90%;
+    height: 700px;
+
+}
+
+
 }
